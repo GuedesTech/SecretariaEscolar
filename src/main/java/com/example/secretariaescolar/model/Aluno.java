@@ -11,11 +11,27 @@ public class Aluno {
         this.idTurma = idTurma;
     }
 
-    public int getIdAluno() { return idAluno; }
-    public int getMatricula() { return matricula; }
-    public int getIdTurma() { return idTurma; }
+    public int getIdAluno() {
+        return idAluno;
+    }
 
-    public void setIdAluno(int idAluno) { this.idAluno = idAluno; }
-    public void setMatricula(int matricula) { this.matricula = matricula; }
-    public void setIdTurma(int idTurma) { this.idTurma = idTurma; }
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public int getIdTurma() {
+        return idTurma;
+    }
+
+    public void setIdAluno(int idAluno) {
+        this.idAluno = idAluno;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public void setIdTurma(int idTurma) {
+        this.idTurma = idTurma;
+    }
 }

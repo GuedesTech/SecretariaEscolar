@@ -13,13 +13,35 @@ public class Usuario {
         this.id_tipoUser = id_tipoUser;
     }
 
-    public String getNome() { return nome; }
-    public String getEmail() { return email; }
-    public String getSenha() { return senha; }
-    public int getId_tipoUser() { return id_tipoUser; }
+    public String getNome() {
+        return nome;
+    }
 
-    public void setNome(String nome) { this.nome = nome; }
-    public void setEmail(String email) { this.email = email; }
-    public void setSenha(String senha) { this.senha = senha; }
-    public void setId_tipoUser(int id_tipoUser) { this.id_tipoUser = id_tipoUser; }
+    public String getEmail() {
+        return email;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public int getId_tipoUser() {
+        return id_tipoUser;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public void setId_tipoUser(int id_tipoUser) {
+        this.id_tipoUser = id_tipoUser;
+    }
 }
